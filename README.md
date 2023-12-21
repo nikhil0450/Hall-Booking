@@ -1,4 +1,4 @@
-##Hall Booking API
+## Hall Booking API
 
 1. Create Room (POST) : https://hall-booking-api-czxl.onrender.com/create-room
     (request body) : {
