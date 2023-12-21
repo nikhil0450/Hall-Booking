@@ -1,6 +1,6 @@
 ## Hall Booking API
 
-1. Create Room (POST) : https://hall-booking-api-czxl.onrender.com/create-room
+1. Create Room (POST) : https://hall-booking-api-czxl.onrender.com/api/create-room
     (request body) : {
         "roomName" : "room_name",
         "seats" : (Number),
@@ -10,7 +10,7 @@
     }
 
 
-2. Book room (POST) : https://hall-booking-api-czxl.onrender.com/book-room/:roomId
+2. Book room (POST) : https://hall-booking-api-czxl.onrender.com/api/book-room/:roomId
     (request params) : "room_Id"
     (request body) : {
         "customerName" : "customer_name",
@@ -20,8 +20,9 @@
         "roomName" : "room_name"        
     }
 
-3. Get the list of the rooms (GET) : https://hall-booking-api-czxl.onrender.com/list-rooms
+
+3. Get the list of the rooms (GET) : https://hall-booking-api-czxl.onrender.com/api/list-rooms
 
 
-4. Get the list of the customers (GET) : https://hall-booking-api-czxl.onrender.com/list-customers
+4. Get the list of the customers (GET) : https://hall-booking-api-czxl.onrender.com/api/list-customers
     
